@@ -1,5 +1,6 @@
-import './App.css'
-import HelloWorld from './HelloWorld'
+import './App.css';
+import HelloWorld from './HelloWorld';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <main className="center">
         <div className="title">CW 05 - React</div>
         <HelloWorld />
+        <Counter />
       </main>
     </>
   )

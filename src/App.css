@@ -33,3 +33,20 @@
   align-items: center;
   gap: 10px;
 }
+
+button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  corner-shape: squircle;
+  background-color: rgb(32, 178, 170);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 14px rgba(21, 117, 112, 0.4);
+  
+}
