@@ -3,9 +3,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <section id="center">
-        <p>Hello, World</p>
-      </section>
+      <main className="center">
+        <div className="title">CW 05 - React</div>
+      </main>
     </>
   )
 }
